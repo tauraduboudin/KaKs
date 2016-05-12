@@ -8,7 +8,7 @@ from Bio.Align.Applications import MuscleCommandline
 
 # /scratch/cluster/monthly/gcossard/SNPcall_EXPR/AllCDSMannua_v_AllCDSRicinus.txt
 # sortie de BLAST: /scratch/cluster/monthly/gcossard/SNPcall_EXPR/ALLCDS_v14.fasta sur /scratch/cluster/monthly/gcossard/Ricinus_data/TIGR_castorWGS_release_0.1.cds.fsa
-
+print("hello world")
 blastFile = "/scratch/cluster/monthly/gcossard/SNPcall_EXPR/AllCDSMannua_v_AllCDSRicinus.txt"
 ricinusFile = "/scratch/cluster/monthly/gcossard/Ricinus_data/TIGR_castorWGS_release_0.1.cds.fsa"
 mercuFile = "/scratch/cluster/monthly/croux/guillaume/ALLCDS_v14.fasta"
